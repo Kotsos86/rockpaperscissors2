@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.stensaxpase.Main</OriginalElement>
+  <nodes>
+    <node x="218.20833333333334" y="620.0">com.stensaxpase.Main</node>
+    <node x="138.125" y="0.0">com.stensaxpase.Fist</node>
+    <node x="259.43902439024396" y="184.0">com.stensaxpase.Player</node>
+    <node x="0.0" y="514.0">com.stensaxpase.RockPaperScissors</node>
+    <node x="76.43902439024393" y="239.0">com.stensaxpase.Fist.Types</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.stensaxpase.Player" target="com.stensaxpase.Fist" relationship="DEPENDENCY">
+      <point x="42.25" y="-138.0" />
+      <point x="386.18902439024396" y="153.0" />
+      <point x="331.3282520325203" y="153.0" />
+      <point x="331.3282520325203" y="143.0" />
+      <point x="288.625" y="143.0" />
+      <point x="64.5" y="61.0" />
+    </edge>
+    <edge source="com.stensaxpase.RockPaperScissors" target="com.stensaxpase.Fist" relationship="GENERALIZATION">
+      <point x="-46.75" y="-27.0" />
+      <point x="46.75" y="492.0" />
+      <point x="65.93902439024393" y="492.0" />
+      <point x="65.93902439024393" y="143.0" />
+      <point x="159.625" y="143.0" />
+      <point x="-64.5" y="61.0" />
+    </edge>
+    <edge source="com.stensaxpase.Fist.Types" target="com.stensaxpase.Fist" relationship="INNER_CLASS">
+      <point x="-54.33333333333334" y="-83.0" />
+      <point x="103.60569105691059" y="153.0" />
+      <point x="202.625" y="153.0" />
+      <point x="-21.5" y="61.0" />
+    </edge>
+    <edge source="com.stensaxpase.Player" target="com.stensaxpase.Fist" relationship="TO_ONE">
+      <point x="-42.25" y="-138.0" />
+      <point x="301.68902439024396" y="163.0" />
+      <point x="248.625" y="163.0" />
+      <point x="248.625" y="143.0" />
+      <point x="245.625" y="143.0" />
+      <point x="21.5" y="61.0" />
+    </edge>
+    <edge source="com.stensaxpase.RockPaperScissors" target="com.stensaxpase.Fist.Types" relationship="DEPENDENCY">
+      <point x="46.75" y="-27.0" />
+      <point x="140.25" y="492.0" />
+      <point x="157.93902439024393" y="492.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="com.stensaxpase.Main" target="com.stensaxpase.Player" relationship="CREATE">
+      <point x="-72.33333333333331" y="-105.0" />
+      <point x="254.37500000000003" y="599.0" />
+      <point x="130.64227642276427" y="599.0" />
+      <point x="130.64227642276427" y="589.0" />
+      <point x="283.25" y="589.0" />
+      <point x="283.25" y="482.0" />
+      <point x="301.68902439024396" y="482.0" />
+      <point x="-42.25" y="138.0" />
+    </edge>
+    <edge source="com.stensaxpase.Fist" target="com.stensaxpase.Fist.Types" relationship="DEPENDENCY">
+      <point x="64.5" y="61.0" />
+      <point x="288.625" y="143.0" />
+      <point x="331.3282520325203" y="143.0" />
+      <point x="331.3282520325203" y="153.0" />
+      <point x="212.27235772357724" y="153.0" />
+      <point x="54.333333333333314" y="-83.0" />
+    </edge>
+    <edge source="com.stensaxpase.Main" target="com.stensaxpase.Fist.Types" relationship="DEPENDENCY">
+      <point x="0.0" y="-105.0" />
+      <point x="326.7083333333333" y="599.0" />
+      <point x="358.2032520325203" y="599.0" />
+      <point x="358.2032520325203" y="589.0" />
+      <point x="318.07825203252037" y="589.0" />
+      <point x="318.07825203252037" y="492.0" />
+      <point x="157.93902439024393" y="492.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="com.stensaxpase.Main" target="com.stensaxpase.Player" relationship="TO_ONE">
+      <point x="72.33333333333331" y="-105.0" />
+      <point x="399.04166666666663" y="599.0" />
+      <point x="449.93902439024396" y="599.0" />
+      <point x="449.93902439024396" y="492.0" />
+      <point x="386.18902439024396" y="492.0" />
+      <point x="42.25" y="138.0" />
+    </edge>
+    <edge source="com.stensaxpase.Fist" target="com.stensaxpase.Fist.Types" relationship="TO_ONE">
+      <point x="21.5" y="61.0" />
+      <point x="245.625" y="143.0" />
+      <point x="248.625" y="143.0" />
+      <point x="248.625" y="163.0" />
+      <point x="157.93902439024393" y="163.0" />
+      <point x="0.0" y="-83.0" />
+    </edge>
+    <edge source="com.stensaxpase.Main" target="com.stensaxpase.Fist" relationship="DEPENDENCY">
+      <point x="0.0" y="-105.0" />
+      <point x="326.7083333333333" y="599.0" />
+      <point x="358.2032520325203" y="599.0" />
+      <point x="358.2032520325203" y="589.0" />
+      <point x="438.93902439024396" y="589.0" />
+      <point x="438.93902439024396" y="153.0" />
+      <point x="331.3282520325203" y="153.0" />
+      <point x="331.3282520325203" y="143.0" />
+      <point x="288.625" y="143.0" />
+      <point x="64.5" y="61.0" />
+    </edge>
+    <edge source="com.stensaxpase.Main" target="com.stensaxpase.RockPaperScissors" relationship="CREATE">
+      <point x="-72.33333333333331" y="-105.0" />
+      <point x="254.37500000000003" y="599.0" />
+      <point x="130.64227642276427" y="599.0" />
+      <point x="130.64227642276427" y="589.0" />
+      <point x="93.5" y="589.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8982352941176471" showDependencies="true" x="204.05865778459406" y="355.02750491159134" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
