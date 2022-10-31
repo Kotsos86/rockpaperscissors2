@@ -70,6 +70,7 @@ public class Main {
 
     }
 
+    //@FIXME: please follow the naming conventions in Java: method names should be declared with lowercase as first letter
     //kontrollera vilken hand som slår vad
     public static Player WhoWon(Player player1,Player player2){
         if(player1.getPlayedFist().getSelected().equals(Types.ROCK)){
